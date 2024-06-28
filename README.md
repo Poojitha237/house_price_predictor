@@ -53,14 +53,14 @@ To run this project locally, follow these steps:
 
 1. Ensure that the dataset is in the `data` directory. You can download the dataset from [Kaggle](https://www.kaggle.com/).
 
-2. Run the Jupyter notebooks or scripts in the following order:
+2. Open the Jupyter notebook:
+    ```bash
+    jupyter notebook bhp.ipynb
+    ```
 
-    - `01_data_preprocessing.ipynb` or `data_preprocessing.py`
-    - `02_model_training.ipynb` or `model_training.py`
-    - `03_model_evaluation.ipynb` or `model_evaluation.py`
-    - `04_prediction.ipynb` or `prediction.py`
+3. Follow the instructions in the notebook to preprocess the data, train the models, evaluate the models, and make predictions.
 
-3. Follow the instructions in each notebook or script to preprocess the data, train the models, evaluate the models, and make predictions.
+4. The trained model is saved as `banglore_home_prices_model.pickle`. You can use this file to make predictions on new data.
 
 ## Data
 
