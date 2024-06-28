@@ -49,7 +49,22 @@ To run this project locally, follow these steps:
 
 3. Follow the instructions in the notebook to preprocess the data, train the models, evaluate the models, and make predictions.
 
-4. The trained model is saved as `banglore_home_prices_model.pickle`. You can use this file to make predictions on new data.
+4. The trained model is saved as `banglore_home_prices_model.pickle`. You can use this file to make predictions on new data.1. Ensure that the dataset is in the `data` directory. You can download the dataset from [Kaggle](https://www.kaggle.com/).
+
+2. Start the Flask server:
+    ```bash
+    cd server
+    python server.py
+    ```
+
+3. Open the `index.html` file in the `client` directory to access the web interface:
+    ```bash
+    open client/index.html  # or simply double-click on the file
+    ```
+
+4. Follow the instructions on the web interface to preprocess the data, train the models, evaluate the models, and make predictions.
+
+5. The trained model is saved as `banglore_home_prices_model.pickle`. You can use this file to make predictions on new data.
 
 ## Data
 
