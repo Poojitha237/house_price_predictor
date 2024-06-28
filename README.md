@@ -49,27 +49,18 @@ To run this project locally, follow these steps:
 
 ## Usage
 
+## Usage
+
 1. Ensure that the dataset is in the `data` directory. You can download the dataset from [Kaggle](https://www.kaggle.com/).
 
-2. Run the data preprocessing script:
-    ```bash
-    python preprocess.py
-    ```
+2. Run the Jupyter notebooks or scripts in the following order:
 
-3. Train the model:
-    ```bash
-    python train.py
-    ```
+    - `01_data_preprocessing.ipynb` or `data_preprocessing.py`
+    - `02_model_training.ipynb` or `model_training.py`
+    - `03_model_evaluation.ipynb` or `model_evaluation.py`
+    - `04_prediction.ipynb` or `prediction.py`
 
-4. Make predictions:
-    ```bash
-    python predict.py
-    ```
-
-5. Evaluate the model performance:
-    ```bash
-    python evaluate.py
-    ```
+3. Follow the instructions in each notebook or script to preprocess the data, train the models, evaluate the models, and make predictions.
 
 ## Data
 
