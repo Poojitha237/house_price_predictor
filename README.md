@@ -30,21 +30,10 @@ House Price Predictor is a machine learning project designed to predict the pric
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+2. Install the required packages. You can manually install the required packages. The common packages include `pandas`, `numpy`, `scikit-learn`, and `matplotlib`. You can install them using pip:
     ```bash
-    git clone https://github.com/Poojitha237/house_price_predictor.git
-    cd house_price_predictor
+    pip install pandas numpy scikit-learn matplotlib flask
     ```
-
-2. Create and activate a virtual environment (optional but recommended):
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
-3. Install the required packages:
-    ```bash
-    pip install -r requirements.txt
     ```
 
 ## Usage
